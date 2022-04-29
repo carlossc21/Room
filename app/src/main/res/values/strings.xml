@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Proyecto</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">Alcoholes</string>
+    <string name="add_alcohol_fragment_label">Añadir</string>
+    <string name="edit_alcohol_fragment_label">Editar</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="imgalcohol">imgAlcohol</string>
+    <string name="boton_anadir">boton añadir</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="anadir_tipo">Añadir Tipo</string>
+    <string name="add_tipo_nombre">Nombre</string>
+    <string name="add_tipo_aceptar">Aceptar</string>
+    <string name="add_tipo_cancelar">Cancelar</string>
+    <string name="hint_nombre">Nombre</string>
+    <string name="guardar">guardar</string>
+
+</resources>

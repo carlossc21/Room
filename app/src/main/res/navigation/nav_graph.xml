@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/FirstFragment">
+
+    <fragment
+        android:id="@+id/FirstFragment"
+        android:name="es.carlossc212.proyecto.view.activityfragments.FirstFragment"
+        android:label="@string/first_fragment_label"
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_FirstFragment_to_editAlcoholFragment"
+            app:destination="@id/editAlcoholFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_addAlcoholFragment"
+            app:destination="@id/addAlcoholFragment" />
+        <action
+            android:id="@+id/action_FirstFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/editAlcoholFragment"
+        android:name="es.carlossc212.proyecto.view.activityfragments.EditAlcoholFragment"
+        android:label="@string/edit_alcohol_fragment_label"
+        tools:layout="@layout/fragment_edit_alcohol" >
+        <action
+            android:id="@+id/action_editAlcoholFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/addAlcoholFragment"
+        android:name="es.carlossc212.proyecto.view.activityfragments.AddAlcoholFragment"
+        android:label="@string/add_alcohol_fragment_label" >
+        <action
+            android:id="@+id/action_addAlcoholFragment_to_historyFragment"
+            app:destination="@id/historyFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/historyFragment"
+        android:name="es.carlossc212.proyecto.view.activityfragments.HistoryFragment"
+        android:label="Historial"
+        tools:layout="@layout/fragment_history" />
+</navigation>
